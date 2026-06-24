@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 05</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 32px 20px;
+            text-align: center;
+        }
+        header h1 { margin: 0; font-size: 26px; }
+        header p { margin: 8px 0 0; font-size: 14px; opacity: 0.9; }
+        main {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .home-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 6px 16px;
+            background: #2c3e50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .home-link:hover { background: #1a252f; }
+        h2 { font-size: 20px; margin: 28px 0 14px; }
+        h2:first-of-type { margin-top: 0; }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        ul li {
+            background: #fff;
+            border-radius: 8px;
+            padding: 14px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+            font-size: 16px;
+        }
+        a.ex-link {
+            text-decoration: none;
+            background: #1b4f72;
+            color: #fff;
+            padding: 6px 14px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            white-space: nowrap;
+            margin-left: 12px;
+        }
+        a.ex-link:hover { background: #143a56; }
+        .voltar-topo {
+            display: block;
+            text-align: center;
+            margin: 40px auto 0;
+            font-size: 14px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="topo">Atividade 05 — Exercícios Propostos</h1>
+        <p>Menu dividido em posição (position) e teoria (float e media queries)</p>
+    </header>
+
+    <main>
+        <a class="home-link" href="../index.html">← Home</a>
+
+        <h2>Position</h2>
+        <ul>
+            <li>
+                <span>Estrutura simples</span>
+                <a class="ex-link" href="position/estrutura-simples.html">Acessar</a>
+            </li>
+            <li>
+                <span>Posição absoluta</span>
+                <a class="ex-link" href="position/absolute.html">Acessar</a>
+            </li>
+            <li>
+                <span>Posição absoluta 2</span>
+                <a class="ex-link" href="position/absolute-2.html">Acessar</a>
+            </li>
+            <li>
+                <span>Posição absoluta 3</span>
+                <a class="ex-link" href="position/absolute-3.html">Acessar</a>
+            </li>
+            <li>
+                <span>Posição fixada</span>
+                <a class="ex-link" href="position/fixed.html">Acessar</a>
+            </li>
+            <li>
+                <span>Posição relativa</span>
+                <a class="ex-link" href="position/relative.html">Acessar</a>
+            </li>
+            <li>
+                <span>Posição estática</span>
+                <a class="ex-link" href="position/static.html">Acessar</a>
+            </li>
+        </ul>
+
+        <h2>Teoria — Float</h2>
+        <ul>
+            <li>
+                <span>Float 1</span>
+                <a class="ex-link" href="teoria/float/float_1.html">Acessar</a>
+            </li>
+            <li>
+                <span>Float 2</span>
+                <a class="ex-link" href="teoria/float/float_2.html">Acessar</a>
+            </li>
+            <li>
+                <span>Float 3</span>
+                <a class="ex-link" href="teoria/float/float_3.html">Acessar</a>
+            </li>
+            <li>
+                <span>Float 4</span>
+                <a class="ex-link" href="teoria/float/float_4.html">Acessar</a>
+            </li>
+            <li>
+                <span>Float 5</span>
+                <a class="ex-link" href="teoria/float/float_5.html">Acessar</a>
+            </li>
+        </ul>
+
+        <h2>Teoria — Design responsivo</h2>
+        <ul>
+            <li>
+                <span>Estilos separados</span>
+                <a class="ex-link" href="teoria/design-responsivo/media_queries.html">Acessar</a>
+            </li>
+            <li>
+                <span>Estilos agrupados</span>
+                <a class="ex-link" href="teoria/design-responsivo/media_queries_2.html">Acessar</a>
+            </li>
+            <li>
+                <span>Estilo pequeno</span>
+                <a class="ex-link" href="teoria/design-responsivo/media_queries_pe.html">Acessar</a>
+            </li>
+            <li>
+                <span>Estilo médio</span>
+                <a class="ex-link" href="teoria/design-responsivo/media_queries_me.html">Acessar</a>
+            </li>
+            <li>
+                <span>Estilo grande</span>
+                <a class="ex-link" href="teoria/design-responsivo/media_queries_gd.html">Acessar</a>
+            </li>
+        </ul>
+
+        <h2>Exercícios</h2>
+        <ul>
+            <li>
+                <span>Formulário</span>
+                <a class="ex-link" href="exercicios/ex01/exercicio_1.html">Acessar</a>
+            </li>
+            <li>
+                <span>Tabela</span>
+                <a class="ex-link" href="exercicios/Ex02/tabelas.html">Acessar</a>
+            </li>
+            <li>
+                <span>Página de Layout</span>
+                <a class="ex-link" href="exercicios/Ex03/layout.html">Acessar</a>
+            </li>
+        </ul>
+
+        <a class="voltar-topo" href="#topo">voltar ao topo</a>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+        body{
+            width: 90%;
+            margin: auto;
+            max-width: 1800px;
+        }
+        a{
+            float:right;
+            color: black;
+        }
+
+        article{
+            width: 30%;
+            float: left;
+        }
+        article img{
+            max-width: 100%;
+        }
+
+        article:nth-child(2){
+            margin: 0 2%;
+        }
+
+        article:last-of-type img{
+            padding-bottom: 21.5%;
+        }
+
+        .SoMedio,.SoPequeno{
+            display: none;
+        }
+
+        .SoGrande{
+            display: block;
+        }
+
+        article:last-of-type{
+            float: left;
+            width: 30%;
+        }
+        

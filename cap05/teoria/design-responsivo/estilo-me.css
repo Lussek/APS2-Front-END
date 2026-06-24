@@ -1,0 +1,36 @@
+        body{
+            width: 90%;
+            margin: auto;
+            max-width: 1800px;
+        }
+
+        article{
+            width: 45%;
+            float: left;
+        }
+        article img{
+            max-width: 100%;
+        }
+
+        article:nth-child(2){
+            margin-right: 2%;
+            margin-left: 2%;
+        }
+
+        article:last-of-type{
+            float: none;
+            width: 95%;
+        }
+
+        a{
+            float:right;
+            color: black;
+        }
+
+        .SoGrande,.SoPequeno{
+            display: none;
+        }
+
+        .SoMedio{
+            display: block;
+        }

@@ -1,0 +1,26 @@
+        body{
+            width: 90%;
+            margin: auto;
+            max-width: 1800px;
+        }
+        a{
+            float:;
+            color: black;
+        }
+
+        article{
+            width: 90%;
+            float: none;
+            margin: auto;
+        }
+        article img{
+            max-width: 100%;
+        }
+
+        .SoGrande,.SoMedio{
+            display: none;
+        }
+
+        .SoPequeno{
+            display: block;
+        }

@@ -1,0 +1,43 @@
+/* títulos: #909; caixas,
+borda e botão: #FCC. */
+
+body{
+    max-width: 80%;
+    margin: auto;
+    
+}
+
+h1{
+    color:#909;
+    text-align: right;
+}
+
+hr{
+    border: solid thin #909;
+}
+
+
+fieldset{
+    border-color: #FCC;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+}
+
+fieldset input{
+    border-color: #FCC;
+    background-color: #FCC;
+    width:100% ;
+    display: inline-block;
+}
+
+input{
+    background-color: #FCC;
+}
+
+figure img {
+    float: left;
+    width: 55px;
+}

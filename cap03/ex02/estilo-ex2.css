@@ -1,0 +1,22 @@
+h1{
+    color: #764e36;
+    border-top: solid #764e36;
+    border-bottom: solid #764e36;
+}
+
+h2,h3{
+ color:#fcfcfc;
+  background-color: #764e36;
+  padding: 4px;
+}
+
+img{
+    border: solid #764e36;
+    padding: 4px;
+}
+
+p {
+    text-indent: 10px;
+  }
+  
+
